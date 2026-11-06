@@ -1,0 +1,33 @@
+{
+    "team_name": "Mighty Pythons",
+    "students": [
+        {
+            "student_id": "K12147981",
+            "first_name": "First",
+            "last_name": "Last",
+            "email": "first.last@mail.com",
+            "github_user": "mygitusername"
+        },
+        {
+            "student_id": "K12148218",
+            "first_name": "First",
+            "last_name": "Last",
+            "email": "first.last@mail.com",
+            "github_user": "mygitusername"
+        },
+        {
+            "student_id": "K12111267",
+            "first_name": "First",
+            "last_name": "Last",
+            "email": "first.last@mail.com",
+            "github_user": "mygitusername"
+        },
+        {
+            "student_id": "K12434880",
+            "first_name": "Lloyd Aaron",
+            "last_name": "Yandoc",
+            "email": "K12434880@students.jku.at",
+            "github_user": "loideyron"
+        }
+    ]
+}
