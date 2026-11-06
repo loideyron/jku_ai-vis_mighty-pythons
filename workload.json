@@ -1,0 +1,25 @@
+{
+    "team_name": "Mighty Pythons",
+    "students": [
+        {
+            "first_name": "First",
+            "last_name": "Last",
+            "workload": 0.25
+        },
+        {
+            "first_name": "First",
+            "last_name": "Last",
+            "workload": 0.25
+        },
+        {
+            "first_name": "First",
+            "last_name": "Last",
+            "workload": 0.25
+        },
+        {
+            "first_name": "Lloyd Aaron",
+            "last_name": "Yandoc",
+            "workload": 0.25
+        }
+    ]
+} 
