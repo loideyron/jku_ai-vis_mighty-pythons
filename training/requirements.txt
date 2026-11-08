@@ -1,0 +1,7 @@
+# PyTorch is installed separately with CUDA support by setup.ps1.
+transformers==4.57.1
+accelerate==1.11.0
+numpy==2.3.4
+scikit-learn==1.7.2
+pandas>=2.2,<3
+ipykernel>=6,<8

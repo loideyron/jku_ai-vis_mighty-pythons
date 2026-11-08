@@ -1,0 +1,18 @@
+{
+  "model_name": "FacebookAI/roberta-base",
+  "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+  "run_name": "roberta-pure-seed42",
+  "data_file": "data/pure_clean.csv",
+  "split_file": "data/PURE_seed42.csv",
+  "seed": 42,
+  "max_length": 256,
+  "epochs": 3,
+  "learning_rate": 0.00002,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.06,
+  "train_batch_size": 8,
+  "eval_batch_size": 8,
+  "gradient_accumulation_steps": 2,
+  "gradient_checkpointing": false,
+  "threshold": 0.5
+}
