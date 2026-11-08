@@ -1,0 +1,82 @@
+{
+  "status": "complete",
+  "started_utc": "2026-11-08T11:44:55.971690+00:00",
+  "config": {
+    "model_name": "FacebookAI/roberta-base",
+    "model_revision": "e2da8e2f811d1448a5b465c236feacd80ffbac7b",
+    "run_name": "roberta-pure-seed42",
+    "data_file": "data/pure_clean.csv",
+    "split_file": "data/PURE_seed42.csv",
+    "seed": 42,
+    "max_length": 256,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.06,
+    "train_batch_size": 8,
+    "eval_batch_size": 8,
+    "gradient_accumulation_steps": 2,
+    "gradient_checkpointing": false,
+    "threshold": 0.5
+  },
+  "data_sha256": {
+    "data_file": "bd4c4d083efe56820a9a9e3cd06b3d08846f5eb9b5ae634dd6791a8064416790",
+    "split_file": "a5a4d5fbacdabc2d5e4c434f44040d7897ad93fbfcc68b96b3b4adee2fe82b42"
+  },
+  "split_summary": {
+    "train": {
+      "rows": 4578,
+      "sources": 45,
+      "label_0": 2244,
+      "label_1": 2334
+    },
+    "validation": {
+      "rows": 648,
+      "sources": 7,
+      "label_0": 318,
+      "label_1": 330
+    },
+    "test": {
+      "rows": 1308,
+      "sources": 14,
+      "label_0": 641,
+      "label_1": 667
+    }
+  },
+  "git_commit": "cdb8e0a32df3ecf4099cba1ef79f5a64a51c00b9",
+  "git_dirty": true,
+  "python_version": "3.12.13",
+  "packages": {
+    "torch": "2.9.0+cu128",
+    "transformers": "4.57.1",
+    "accelerate": "1.11.0",
+    "numpy": "2.3.4",
+    "scikit-learn": "1.7.2"
+  },
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "cuda_runtime": "12.8",
+  "precision": "bf16",
+  "trainable_parameters": 124647170,
+  "truncated": {
+    "train": 11,
+    "validation": 1
+  },
+  "selection_metric": "validation macro-F1",
+  "finished_utc": "2026-11-08T11:46:29.122055+00:00",
+  "elapsed_seconds": 93.13780779999797,
+  "best_checkpoint": "models\\roberta-pure-seed42\\checkpoints\\checkpoint-861",
+  "best_validation_macro_f1": 0.922792435565045,
+  "validation_metrics": {
+    "eval_loss": 0.27204373478889465,
+    "eval_accuracy": 0.9228395061728395,
+    "eval_f1": 0.9208860759493671,
+    "eval_macro_f1": 0.922792435565045,
+    "eval_precision": 0.9635761589403974,
+    "eval_recall": 0.8818181818181818,
+    "eval_runtime": 0.9334,
+    "eval_samples_per_second": 694.252,
+    "eval_steps_per_second": 86.781,
+    "epoch": 3.0
+  },
+  "peak_allocated_vram_gib": 2.9015893936157227
+}

@@ -1,0 +1,19 @@
+{
+  "validation_metrics": {
+    "eval_loss": 0.27204373478889465,
+    "eval_accuracy": 0.9228395061728395,
+    "eval_f1": 0.9208860759493671,
+    "eval_macro_f1": 0.922792435565045,
+    "eval_precision": 0.9635761589403974,
+    "eval_recall": 0.8818181818181818,
+    "eval_runtime": 0.9334,
+    "eval_samples_per_second": 694.252,
+    "eval_steps_per_second": 86.781,
+    "epoch": 3.0
+  },
+  "best_validation_macro_f1": 0.922792435565045,
+  "truncated": {
+    "train": 11,
+    "validation": 1
+  }
+}
