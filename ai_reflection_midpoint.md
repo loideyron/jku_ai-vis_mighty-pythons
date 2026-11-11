@@ -1,4 +1,6 @@
 # AI-Aided Pair: Reflection on Phase I
+by: K12147981: Vladyslav Protsko
+    K12111267: Simon Stromberger
 
 This reflection summarizes our experience using AI assistance for the [dataset and model-behavior overview](phase1/AI-aided/dataset-context-model-behaviour.ipynb) and the focused [investigation of multiple-action requirements](phase1/AI-aided/multiple_actions_investigation.ipynb).
 
